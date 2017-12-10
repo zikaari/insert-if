@@ -1,0 +1,32 @@
+{
+  "name": "insert-if",
+  "version": "0.0.0",
+  "description": "Conditionally insert elements in array when using spread operator",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chipto/insert-if.git"
+  },
+  "keywords": [
+    "array",
+    "spread",
+    "operator",
+    "helper",
+    "util",
+    "utility",
+    "conditional",
+    "insert",
+    "add",
+    "push"
+  ],
+  "author": "Neek Sandhu <neek.sandhu@chipto.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chipto/insert-if/issues"
+  },
+  "homepage": "https://github.com/chipto/insert-if#readme"
+}
