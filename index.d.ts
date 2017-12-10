@@ -4,6 +4,6 @@
  * @param condition 
  * @param element 
  */
-declare function insertIf<T>(condition: boolean, element: T): T[];
+declare function insertIf<T>(condition: boolean, ...elements: T[]): T[];
 
 export default insertIf;
