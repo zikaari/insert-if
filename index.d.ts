@@ -7,4 +7,3 @@
 declare function insertIf<T>(condition: boolean, element: T): T[];
 
 export default insertIf;
-export as namespace insertIf;
