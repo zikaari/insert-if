@@ -1,5 +1,5 @@
 function insertIf(condition, ...elements) {
-    return condition ? [...elements] : [];
+    return condition ? elements : [];
 }
 
 module.exports = insertIf;
