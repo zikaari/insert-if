@@ -1,8 +1,8 @@
 ## insert-if
 
-Conditionally add elements to array using spread operators
+Conditionally add element(s) to array using spread operators
 
-### Getting start
+### Getting started
 
 ```bash
 $ npm install insert-if
