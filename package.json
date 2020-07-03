@@ -1,6 +1,6 @@
 {
   "name": "insert-if",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Conditionally insert elements in array when using spread operator",
   "main": "dist/index.js",
   "typings": "index.d.ts",
