@@ -1,18 +1,20 @@
-const insertIf = require('./index');
+const iif = require('.').default;
 
 const arr = [
     'a',
     'b',
-    ...insertIf(true, 'c'),
+    ...iif(true, 'c0'),
+    ...iif(true, () => 'c1'),
     'd'
 ];
 
-console.assert(arr.length === 4, 'Failed to insert');
+console.assert(arr.length === 5, 'Failed to insert');
 
 const arr1 = [
     'a',
     'b',
-    ...insertIf(false, 'c'),
+    ...iif(false, 'c0'),
+    ...iif(false, () => 'c1'),
     'd'
 ];
 
